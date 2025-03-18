@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--Script Tags-->
+    <script>
+        //Basic Javascript syntax
+        let message = "We are learning Javascript"
+        console.log(message);
+        //this is a single line comment
+
+        /*Multi-line
+        comment*/
+        //Variables 
+        //It is a container used to store data
+        //Variable declaration
+        //The words Name and name are the containers
+        //Data that can be changed...mutable data('var' and 'let' are used on such data)
+        //We mostly use let
+
+        //var Name = "John";
+        //var name = "John";
+        let Name = "John";
+        Name = "James"; //variable initialization and assignment
+
+        //const is used for immutable data...private details
+        const name = "John";
+        //const name = "James";
+        //You can't redeclare a variable that has already been declared
+        console.log(Name);
+
+        let _age = "Ten years";
+        _age = "Fifteen years";
+        console.log(_age);
+
+        let $money = "Moneyy";
+        console.log($money);
+        //camelCase naming
+
+        let fullName = "Iva Ella";
+        let age =19 + " years old";
+        let isStudent = "Yes!";
+        console.log(fullName, age, isStudent);
+        //snake_case
+        let full_name = "John Doe";
+        age = "28 years old"
+        let is_student = "No!";
+        console.log(full_name, age, is_student);
+
+        //Data Types-Primitive and 
+        //Primitive Data types
+
+        //1. Strings-uses quotation marks...both double,single and backend
+        let string = "This is a string";
+        let num = "43";
+        let str = 'This is yet another string';
+        let str1 = `Yet another string...commonly used`;
+        console.log(string, num, str, str1);
+        console.log(typeof(num));
+
+        //2. Undefined
+        let j;//when a valuable is declared but not assigned any value
+        console.log(j);
+
+        //3. Number
+        let int = 16;//values which are numbers without decimals
+        let float = 13.6;//values with decimal points
+        let bigInt = 348974907456789009876554632578n//for large numbers that cannot be computed
+        console.log(int, float, bigInt);
+
+        //4. Booleans...take true or false values
+        let isstudent = true;
+        console.log(isstudent);
+
+        //5. Null...intentional absence of a value
+        let status = null;
+        console.log(status);
+
+        //6. Symbol...takes in unique values as identifiers for variables
+        //let sym = $;
+        //let id = Symbol("id")
+        //console.log(sym);
+
+        let fullname = "Yma Hope Njeri";
+        let Height = 180;
+        let coding = true;
+        let Id = null;
+        let Age;
+        console.log(fullname, Height, coding, Id, Age);
+        console.log(typeof(fullname));
+        console.log(typeof(Height));
+        console.log(typeof(coding));
+        console.log(typeof(Id));
+        console.log(typeof(Age));
+        </script>
+</head>
+<body>
+    
+</body>
+</html>
