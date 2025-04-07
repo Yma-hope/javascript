@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Budget Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Budget Tracker</h1>
+    
+        <!-- Transaction Form -->
+        <form id="transaction-form">
+          <input type="text" id="description" placeholder="Description" required />
+          <input type="number" id="amount" placeholder="Amount (use - for expenses)" required />
+          <button type="submit">Add Transaction</button>
+        </form>
+    
+        <!-- Filter Buttons -->
+        <div class="filters">
+          <button data-filter="all">All</button>
+          <button data-filter="income">Income</button>
+          <button data-filter="expense">Expense</button>
+        </div>
+    
+        <!-- Transactions List -->
+        <ul id="transaction-list"></ul>
+    
+        <!-- Totals -->
+        <div class="totals">
+          <p>Total Income: <span id="total-income">0</span></p>
+          <p>Total Expenses: <span id="total-expense">0</span></p>
+          <p>Balance: <span id="balance">0</span></p>
+        </div>
+      </div>
+
+  <script src="tracker.js"></script>
+</body>
+</html>
